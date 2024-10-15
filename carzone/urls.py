@@ -20,6 +20,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('pages.urls')),
+    path('cars/',include('cars.urls')),
+    path("ckeditor5/", include('django_ckeditor_5.urls')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
