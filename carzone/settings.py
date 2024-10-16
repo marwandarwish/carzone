@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'cars.apps.CarsConfig',
+    'django_admin_kubi',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -232,3 +233,8 @@ CKEDITOR_5_CONFIGS = {
 # Define a constant in settings.py to specify file upload permissions
 CKEDITOR_5_FILE_UPLOAD_PERMISSION = "staff"  # Possible values: "staff", "authenticated", "any"
 DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
+
+DJANGO_ADMIN_KUBI = {
+    'ADMIN_HISTORY': True,  # enables the history action panel
+    'ADMIN_SEARCH': True,  # enables a full modal search
+}

@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+{% load humanize %}
+{% load static %}
+
+<!-- Banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Search Results</h1>
+            <ul class="breadcrumbs">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Search</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Banner end -->
+
+<!-- Search box 3 start -->
+<div class="search-box-3 sb-7 bg-active">
+    <div class="container">
+        <div class="search-area-inner">
+            <div class="search-contents">
+                <form method="GET">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="form-group">
+                                <select class="selectpicker search-fields" name="models">
+                                    <option disabled="disabled" selected="selected">Select Models</option>
+                                    {% for i in models %}
+                                    <option value= "{{i}}" > {{i}} </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="form-group">
+                                <select class="selectpicker search-fields" name="states">
+                                    <option disabled="disabled" selected="selected">Select Location</option>
+                                    <{% for i in states %}
+                                    <option value="{{i}}">{{i}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="form-group">
+                                <select class="selectpicker search-fields" name="years">
+                                    <option disabled="disabled" selected="selected">Select Year</option>
+                                    {% for i in years %}
+                                    <option value="{{i}}" > {{i}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="form-group">
+                                <select class="selectpicker search-fields" name="body_styles">
+                                    <option disabled="disabled" selected="selected">Select Body Style</option>
+                                    {% for i in body_styles %}
+                                    <option value="{{i}}" >{{i}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="form-group">
+                                <select class="selectpicker search-fields" name="transmissions">
+                                    <option disabled="disabled" selected="selected">Transmission</option>
+                                    {% for i in transmissions_model %}
+                                    <option value="{{i}}" >{{i}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="form-group">
+                                <div class="range-slider">
+                                    <div data-min="0" data-max="{{max_price }}" data-unit="SAR" data-min-name="min_price" data-max-name="max_price" class="range-slider-ui ui-slider" aria-disabled="false"></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                            <div class="form-group">
+                                <button class="btn btn-block button-theme btn-md">
+                                    <i class="fa fa-search"></i>Find
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Featured car start -->
+<div class="featured-car content-area-5">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title">
+            <h1>Featured <span>Cars</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <!-- Slick slider area start -->
+        <div class="slick-slider-area clearfix">
+            <div class="row slick-carousel" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+                {% for feature in cars %}
+                  
+                
+                <div class="slick-slide-item">
+                    <div class="car-box-3">
+                        <div class="car-thumbnail">
+                            <a href="{% url 'car_details' feature.id %}" class="car-img">
+                                <div class="tag-2">Featured</div>
+                                <div class="price-box">
+                                    <span class="del"><del>${{feature.price | intcomma}}</del></span>
+                                    <br>
+                                    <span>${{ feature.discount_offer| intcomma }} </span>
+                                </div>
+                                <img class="d-block w-100" src="{{feature.car_photo.url}}" alt="car" style="min-height:262px; max-height:262px; ">
+                            </a>
+                            <div class="carbox-overlap-wrapper">
+                                <div class="overlap-box">
+                                    <div class="overlap-btns-area">
+                                        <div class="car-magnify-gallery">
+                                            {% if feature.car_photo_1.url %}
+                                            <a href="{{feature.car_photo_1.url}}" class="overlap-btn" data-sub-html="<h4>Toyota Corolla</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
+                                                <i class="fa fa-expand"></i>
+                                                <img class="hidden" src="{{feature.car_photo_1.url}}" alt="hidden-img">
+                                            </a>
+                                            {% endif %}
+                                            {% if feature.car_photo_1.url %}
+                                            <a href="{{feature.car_photo_2.url}}" class="hidden" data-sub-html="<h4>Lexus GS Red Car</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
+                                                <img class="hidden" src="{{feature.car_photo_2.url}}" alt="hidden-img">
+                                            </a>
+                                            {% endif %}
+                                            {% if feature.car_photo_1.url %}
+                                            <a href="{{feature.car_photo_3.url}}" class="hidden" data-sub-html="<h4>2015 Porsche Cayenne</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
+                                                <img class="hidden" src="{{feature.car_photo_3.url}}" alt="hidden-img">
+                                            </a>
+                                            {% endif %}
+                                            {% if feature.car_photo_1.url %}
+                                            <a href="{{feature.car_photo_4.url}}" class="hidden" data-sub-html="<h4>Lamborghini Huracán</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy....</p>">
+                                                <img class="hidden" src="{{feature.car_photo_4.url}}" alt="hidden-img">
+                                            </a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <h1 class="title">
+                                <a href="{% url 'car_details' feature.id %}">{{feature.title}}</a>
+                            </h1>
+                            <div class="location">
+                                <a href="{% url 'car_details' feature.id %}">
+                                    <i class="flaticon-pin"></i>{{feature.state}}. {{feature.city}},
+                                </a>
+                            </div>
+                            <ul class="facilities-list clearfix">
+                                <li>{{feature.fuel_type}}</li>
+                                <li> {{feature.miles | intcomma}}km</li>
+                                <li>{{feature.transmission}}</li>
+                                <li>{{feature.body_style}}</li>
+                                <li>{{feature.color}}</li>
+                                <li>{{feature.state}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="slick-btn">
+                <div class="slick-prev slick-arrow-buton sab-4">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="slick-next slick-arrow-buton sab-3">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured car end -->
+
+
+{% endblock content %}
