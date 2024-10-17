@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'contact.apps.ContactConfig',
+    'accounts.apps.AccountsConfig',
     'pages.apps.PagesConfig',
     'cars.apps.CarsConfig',
     'django_admin_kubi',
@@ -238,3 +240,12 @@ DJANGO_ADMIN_KUBI = {
     'ADMIN_HISTORY': True,  # enables the history action panel
     'ADMIN_SEARCH': True,  # enables a full modal search
 }
+
+from django.contrib.messages import constants as messages
+
+MESSAGE_TAGS = {
+    messages.INFO: "danger",
+    
+}
+
+LOGIN_URL = 'login'

@@ -1,0 +1,466 @@
+[
+{
+    "model": "contact.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "marwan",
+        "last_name": "darwish",
+        "car_id": "1",
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "صبيا",
+        "state": "جازان",
+        "email": "marwandarwish9@gmail.com",
+        "phone": null,
+        "message": "",
+        "user_id": 1,
+        "create_date": "2024-10-17T18:47:34Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Marwan",
+        "last_name": "Darwish",
+        "designation": "Programmer",
+        "phtoto": "photos/2024/10/15/224185181_251129246920493_2590464296413672491_n.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://www.facebook.com/",
+        "google": "https://www.facebook.com/",
+        "create_date": "2024-10-14T21:25:08Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "salah",
+        "last_name": "nasr",
+        "designation": "test",
+        "phtoto": "photos/2024/10/15/361226775_668485544675740_7021028435068192126_n.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://www.facebook.com/",
+        "google": "https://www.facebook.com/",
+        "create_date": "2024-10-14T21:55:42Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "title": "2017 Ferrari 488 GTB",
+        "state": "جازان",
+        "city": "صبيا",
+        "color": "ابيض",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "جديد",
+        "price": 100000,
+        "description": "<p><span style=\"color:#202122\"><span style=\"background-color:#ffffff\">&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"سيارة رياضية\">سيارة رياضية&nbsp;</a><a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"محرك خلفي في المنتصف، تصميم دفع خلفي\">بمحرك وسطي</a>&nbsp;أنتجتها شركة&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"فيراري\">فيراري</a>&nbsp;الإيطالية لصناعة السيارات . حلت هذه السيارة محل سيارة&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"فيراري 458\">458</a>&nbsp;، وكانت أول سيارة فيراري بمحرك وسطي تستخدم محرك V8 توربو منذ سيارة&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"فيراري F40\">F40</a>&nbsp;. وقد خلفتها سيارة&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"فيراري F8\">فيراري F8</a>&nbsp;.</span></span></p>\r\n\r\n<p><span style=\"color:#202122\"><span style=\"background-color:#ffffff\">السيارة مدعومة بمحرك&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"محرك V8\">V8&nbsp;</a><a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"شاحن توربيني مزدوج\">مزدوج التوربو سعة</a>&nbsp;3.9 لتر ، أصغر في السعة ولكنه يولد طاقة أعلى من&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"محرك ذو سحب طبيعي\">محرك 458 الذي يعمل بالسحب الطبيعي</a>&nbsp;. تم تسمية 488 GTB &quot;سيارة العام الخارقة لعام 2015&quot; من قبل مجلة السيارات&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"توب جير (مجلة)\">Top Gear</a></em>&nbsp;، بالإضافة إلى أنها أصبحت&nbsp;&quot;أفضل سيارة للسائق&quot; لعام 2017 من Motor Trend.&nbsp;[&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"موتور تريند\">7&nbsp;</a></em><a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\">]</a><a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\">&nbsp;أعلن&nbsp;</a><a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\">جيريمي</a><a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\" title=\"جيريمي كلاركسون\">&nbsp;كلاركسون</a>&nbsp;عن 488 بيستا كسيارة العام الخارقة لعام 2019.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\">[</a><a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\">&nbsp;8&nbsp;</a><a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\" style=\"text-decoration:none; color:var(--color-progressive,#36c); border-radius:0px; overflow-wrap:break-word\">]</a></span></span></p>",
+        "car_photo": "photos/2024/10/15/1902536891.jpg",
+        "car_photo_1": "photos/2024/10/15/1902536917.jpg",
+        "car_photo_2": "photos/2024/10/15/1902537043.jpg",
+        "car_photo_3": "photos/2024/10/15/1902537077.jpg",
+        "car_photo_4": "photos/2024/10/15/1902537043_kwpTVhj.jpg",
+        "features": "Cruise Control,Seat Heating,Power Steering,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "رياضى",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "اوتوماتيك",
+        "interior": "Agate Grey",
+        "miles": 10000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "WP0AB2E81EK190171",
+        "milage": 5,
+        "fuel_type": "Gasoline",
+        "no_of_owner": 1,
+        "is_features": true,
+        "create_date": "2024-10-15T11:20:04Z",
+        "discount": 0
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "title": "2017 Ford Edge",
+        "state": "الرياض",
+        "city": "المنفوحة",
+        "color": "اسود",
+        "model": "500GTB",
+        "year": 2024,
+        "condition": "جديد",
+        "price": 650000,
+        "description": "<p>فورد <strong>إيدج</strong> هي <a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\">سيارة كروس أوفر رياضية متعددة الاستخدامات</a> تصنعها وتسوقها <a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\">شركة فورد موتورز،</a> وقد طرحت في طراز عام 2007 كأول <a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\">سيارة كروس أوفر متوسطة الحجم</a> تسوقها فورد في أمريكا الشمالية؛ وهي الآن في جيلها الثالث. تستمد فورد إيدج اسمها من حزمة تجهيزات <a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\">فورد رينجر</a> ، وتقع بين <a href=\"https://en.wikipedia.org/wiki/Ford_Escape\">فورد إسكيب</a> وفورد <a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\">إكسبلورر</a> ضمن خط إنتاج فورد.</p><p style=\"margin-left:0px;\">تشارك فورد في أساسياتها مع <a href=\"https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)\">سيارة سيدان فورد فيوجن ، كما قامت بتسويق نسخة </a><a href=\"https://en.wikipedia.org/wiki/Badge_engineering\">أعيدت تسميتها</a> باسم <a href=\"https://en.wikipedia.org/wiki/Lincoln_MKX\">لينكولن MKX</a> (منذ عام 2019، لينكولن نوتيلوس). كما يتم تسويق الجيل الثاني من قبل <a href=\"https://en.wikipedia.org/wiki/Ford_of_Europe\">شركة فورد في أوروبا</a> ، ويقع بين كوجا (إسكيب) وإكسبلورر PHEV.</p><p style=\"margin-left:0px;\">تتم صناعة كلا الجيلين في <a href=\"https://en.wikipedia.org/wiki/Oakville_Assembly\">Oakville Assembly</a> ( <a href=\"https://en.wikipedia.org/wiki/Oakville,_Ontario\">أوكفيل، أونتاريو</a> ) إلى جانب Nautilus.</p><p><br>&nbsp;</p>",
+        "car_photo": "photos/2024/10/15/1901478607.jpg",
+        "car_photo_1": "photos/2024/10/15/1901478618.jpg",
+        "car_photo_2": "photos/2024/10/15/1901478646.jpg",
+        "car_photo_3": "photos/2024/10/15/1901478672.jpg",
+        "car_photo_4": "photos/2024/10/15/1901478687.jpg",
+        "features": "Alarm System,Power Steering,Direct Fuel Injection,Wind Deflector",
+        "body_style": "مدرع",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "اوتوماتيك",
+        "interior": "Agate Grey",
+        "miles": 30,
+        "doors": "4",
+        "passengers": 6,
+        "vin_no": "WP0AB2E81EK190171",
+        "milage": 44,
+        "fuel_type": "Gasoline",
+        "no_of_owner": 2,
+        "is_features": true,
+        "create_date": "2024-10-15T12:53:50Z",
+        "discount": 50
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$b4RlvIO2akc8CcpPujijcT$5cBa5JUYHcJEHBJ4BJIN397AAwbzrVcPzRvbDgG+ETk=",
+        "last_login": "2024-10-17T19:00:57.669Z",
+        "is_superuser": true,
+        "username": "marwan",
+        "first_name": "marwan",
+        "last_name": "darwish",
+        "email": "marwandarwish9@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-10-14T13:52:47Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$lVPsD1EsZZxNpvjaVBzkU9$g0hpnrqDTGzBjEC2rPeIomuvFjCHmUawVQhBsTFtt5c=",
+        "last_login": "2024-10-17T10:21:22.224Z",
+        "is_superuser": false,
+        "username": "salah10",
+        "first_name": "salah",
+        "last_name": "nasr",
+        "email": "mohamed.nasr1229@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-17T10:21:21.979Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5tjmpf2szjpt6s5hb37h9f5czrw9vxwl",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyGFLqAevfsNzS67SNVAUtqT8d-VpAe9zGHem3mpCbc1T1uTZZpZnZVRh9-OMD6kdMB3LLeqYy3rMpPuit5p09fK8rzs7t9Bxpa_az_yQAiJEUYrTMn1JHuM5NEZcImNGDAuUBgCOp-iF2uAT5AEENT7AwxuOK0:1t1Vk1:qWSMlPansUtRcuLHqr9zXOAQuT7eedu-Nqb8f6PVqlI",
+        "expire_date": "2024-10-31T19:00:57.671Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-10-15T00:25:59.495Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-10-15T00:55:44.309Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "salah nasr",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-10-15T11:46:50.910Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "صلاح نصر",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-10-15T11:22:51.551Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-10-15T11:31:07.451Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo\", \"Car photo 1\", \"Car photo 2\", \"Car photo 3\", \"Car photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-10-15T12:01:31.996Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is features\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-10-15T12:01:36.288Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is features\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-10-15T12:53:51.066Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-10-15T13:23:21.705Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Discount\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-10-15T13:52:04.121Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is features\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-10-15T13:52:10.687Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is features\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-10-15T13:53:13.198Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is features\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-10-15T14:22:37.128Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is features\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-10-16T17:49:14.688Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Model\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-10-16T20:59:19.584Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "صلاح نصر",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-10-17T16:21:42.248Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "marwan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-10-17T17:03:14.594Z",
+        "user": [
+            "marwan"
+        ],
+        "content_type": [
+            "contact",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "marwandarwish9@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User id\"]}}]"
+    }
+}
+]
